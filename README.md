@@ -22,7 +22,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- [Installation Files](https://drive.google.com/drive/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6)
+- [Installation Files](https://drive.google.com/drive/folders/139sCXwDcbNJisxGkiU7XyU7HfNam8vrZ?usp=sharing)
 - Microsoft Azure Account
 - Remote Desktop 
 - Item 4

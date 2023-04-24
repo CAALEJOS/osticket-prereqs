@@ -29,7 +29,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+ <img src="https://imgur.com/F6dDyiN.png" height="100%" width="100%" alt="osStep1">
+ 
 </p>
 <p>
 <h4>1. Create a Resource Group by searching Resource group in the search bar or by selecting the Resource Group Icon (ex. osTicket)</h4>
@@ -70,6 +72,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
 <h4>3. Select Go to resource or  navigate to Virtual Machines section and select your VM (ex. VM-osTicket)</h4>
+
 * Copy the Public IP address (ex. Mine is 52.188.204.18)
 
 * Open Remote Desktop Connection and paste the Public IP address of you VM

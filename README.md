@@ -194,7 +194,30 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<h4>9. Open file explorer</h4>
+
+* Select inetpub folder
+
+  * Select wwwroot folder
+
+  * Select osTicket folder
+
+  * Select include folder
+
+  * Find file called ost-sampleconfig.php
+
+  * Rename it to ost-config.php
+
+* Right click on file and select properties
+
+  * Select security and Advanced
+
+  * Disable Inheritance and Remove all inherited permissions from this object
+
+  * Select Add, Select principal, enter Everyone, and check names
+
+  * Allow full control, select apply, and ok
+
 </p>
 <br />
 
@@ -202,7 +225,27 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<h4>10. Select Continue on the osTicket installer webpage</h4>
+
+ * Enter the name of your helpdesk (can be anything you want)
+
+ * Create an email that will be receiving emails from customers
+
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ 
+ #### 11. Download and install [HeidiSQL](https://drive.google.com/drive/folders/139sCXwDcbNJisxGkiU7XyU7HfNam8vrZ)
+</p>
+<p>
+* Select create a new session
+
+* Name the database osTicket
+ 
+* Create a password for root username
+
 </p>
 <br />
 
@@ -210,7 +253,20 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<h4>12. Continue setup process from the osTicket installer webpage</h4>
+
+* Enter the Admin user details of your choosing (just don't forget your credentials)
+
+* In Database settings enter the following
+  
+  * MySQL Database: osTicket
+  
+  * MySQL Username: root
+  
+  * MySQL Password:(the password you created in step 11)
+
+* Select Install Now
+
 </p>
 <br />
 
@@ -218,7 +274,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<h4>13. The page should now say congratulations</h4>
+
+* Tickets can be submitted at http://localhost/osTicket/ 
+
+* Agent/admin login at http://localhost/osTicket/scp/login.php
 </p>
 <br />
 
@@ -226,22 +286,21 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+<h4>14.Open File Explorer</h4>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+* Select inetpub folder
+ 
+ * Select wwwroot folder
+ 
+ * Select osTicket folder
+ 
+ * Delete the setup folder
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+* Select include folder
+
+* Find ost-config.php and open properties
+
+* Change permissions to read only
+
 </p>
 <br />

@@ -32,6 +32,200 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+<h4>1. Create a Resource Group by searching Resource group in the search bar or by selecting the Resource Group Icon (ex. osTicket)</h4>
+
+* Enter name for Resource Group (ex. osTicketRG)
+
+* Select Review + Create
+
+* Select Create once it finishes validating
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<h4>2. Navigate to the Virtual Machine section by searching Virtual Machine in the search bar or by selecting the Virtual Machine Icon</h4>
+
+* Select create and choose Azure Virtual Machine
+
+* In the Resource group field, select the Resource Group you previously created (in my case its osTicketRG)
+* Enter a name for the virtual machine in the Virtual Machine Name field (ex. osTicket-VM)
+* Select any region 
+* Availability options can be set to “No structure redundancy required”
+* Select Windows 10 Pro in the Image Field
+* Select a machine with at least 4 CPUs (ex. 4vcpus, 16 GiB memory)
+* Create a Username and Password for the VM (Don't forget what they are!)
+* Leave the Inbound port rules unchanged
+* Check the Licensing box
+* Select Review + Create
+* Select Create once validation is completed and wait for the VM to finish being deployed
+
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<h4>3. Select Go to resource or  navigate to Virtual Machines section and select your VM (ex. VM-osTicket)</h4>
+* Copy the Public IP address (ex. Mine is 52.188.204.18)
+
+* Open Remote Desktop Connection and paste the Public IP address of you VM
+
+* Select connect, enter the Username and Password you created, and select yes
+
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<h4>4. When the VM loads in, go to the search bar and type windows features until you see “Turn Windows features on or off” and select it</h4>
+
+* Select Internet Information Services
+ 
+* Click World Wide Web Services
+ 
+* Click Application Development Features
+ 
+* Check the CGI box, select OK and close when changes are finished
+
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ 
+#### 5. Download the files from the [Installation Files](https://drive.google.com/drive/folders/139sCXwDcbNJisxGkiU7XyU7HfNam8vrZ?usp=sharing)
+
+</p>
+<p>
+
+* Install PHP Manager for IIS ([PHPManagerForIIS_V1.5.0.msi](https://drive.google.com/drive/folders/139sCXwDcbNJisxGkiU7XyU7HfNam8vrZ))
+
+* Install Rewrite Module ([rewrite_amd64_en-US.msi](https://drive.google.com/drive/folders/139sCXwDcbNJisxGkiU7XyU7HfNam8vrZ))
+
+* Create a new folder within Windows(C:) drive called PHP
+
+* Extract PHP 7.3.8 ([php-7.3.8-nts-Win32-VC15-x86.zip](https://drive.google.com/drive/folders/139sCXwDcbNJisxGkiU7XyU7HfNam8vrZ)) into the PHP folder created
+
+* Install [VC_redist.x86.exe](https://drive.google.com/drive/folders/139sCXwDcbNJisxGkiU7XyU7HfNam8vrZ)
+
+* Install MySQL 5.5.62 ([mysql-5.5.62-win32.msi](https://drive.google.com/drive/folders/139sCXwDcbNJisxGkiU7XyU7HfNam8vrZ))
+
+* Select Typical Install
+
+* Select Finish with the Launch the MySQL: Instance Configuration Wizard box checked
+
+  * Select Standard Configuration
+
+  *  Leave as Install As Windows Service
+
+  * Create a password for root Username
+
+  * Select Execute 
+
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<h4>6. Navigate to Windows search bar and enter IIS or Internet Information Services, open as administrator</h4> 
+
+ * Select PHP Manager
+
+ * Select Register new PHP version
+
+ * Navigate to the PHP folder created previously and select php-cgi file
+
+ * Select name of server and select Restart under manage server
+
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
+ #### 7. Navigate to Osticket folder that was downloaded from the [Installation files](https://drive.google.com/drive/folders/139sCXwDcbNJisxGkiU7XyU7HfNam8vrZ) 
+</p>
+<p>
+
+* Move the upload folder to \inetpub\wwwroot
+
+* Rename the upload folder to osTicket within \inetpub\wwwroot
+
+* Stop and start the server in IIS
+
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<h4>8. In IIS select the name of the server</h4>
+
+* Select arrow next to Sites
+
+* Select arrow next to Default Web Site
+
+* Select osTicket
+
+* Select Browse *.80(http), on the right
+
+* Once the webpage for the installer opens successfully, open PHP Manager
+
+* Select Enable or disable an extension
+  * Enable php_imap.dll
+  * Enable php_intl.dll
+  * Enable php_opcache.dll
+
+* Refresh installer webpage to confirm changes
+
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />

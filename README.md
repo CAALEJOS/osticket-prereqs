@@ -152,7 +152,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/XuYiOFF.png" height="100%" width="100%" alt="Step7"/>
   
  #### 7. Navigate to Osticket folder that was downloaded from the [Installation files](https://drive.google.com/drive/folders/139sCXwDcbNJisxGkiU7XyU7HfNam8vrZ) 
 </p>
@@ -225,7 +225,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/pXuiz44.png" height="100%" width="100%" alt="Step10"/>
 </p>
 <p>
 <h4>10. Select Continue on the osTicket installer webpage</h4>
@@ -238,7 +238,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/QSgcgcS.png" height="100%" width="100%" alt="Step11"/>
  
  #### 11. Download and install [HeidiSQL](https://drive.google.com/drive/folders/139sCXwDcbNJisxGkiU7XyU7HfNam8vrZ)
 </p>
@@ -274,7 +274,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/a2xq1d6.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <h4>13. The page should now say congratulations</h4>

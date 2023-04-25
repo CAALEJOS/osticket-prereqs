@@ -8,7 +8,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Video Demonstration</h2>
 
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
+- ### [YouTube: How To Install osTicket with Prerequisites](https://youtu.be/EbS51IQ6leI)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -84,6 +84,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
 </p>
 <p>
 <h4>4. When the VM loads in, go to the search bar and type windows features until you see “Turn Windows features on or off” and select it</h4>

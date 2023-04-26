@@ -8,7 +8,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Video Demonstration</h2>
 
-- ### [YouTube: How To Install osTicket with Prerequisites](https://youtu.be/EbS51IQ6leI)
+[![Step 4: Turn Windows Features on or off](https://img.youtube.com/vi/EbS51IQ6leI/maxresdefault.jpg)](https://youtube.com/clip/UgkxkjSDttxJCalA07AthmPV2JlK1gUzzQea)
+
 
 <h2>Environments and Technologies Used</h2>
 
@@ -101,7 +102,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/6d7uYWz.png" height="100%" width="100%" alt="Step5"/>
  
 #### 5. Download the files from the [Installation Files](https://drive.google.com/drive/folders/139sCXwDcbNJisxGkiU7XyU7HfNam8vrZ?usp=sharing)
 

@@ -10,7 +10,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 [![How to Install osTicket with Prerequisites](https://img.youtube.com/vi/EbS51IQ6leI/maxresdefault.jpg)](https://youtu.be/EbS51IQ6leI)
 
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)

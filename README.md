@@ -45,7 +45,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/zZLecVC.png" height="120%" width="120%" alt="Step2"/>
 </p>
 <p>
 <h4>2. Navigate to the Virtual Machine section by searching Virtual Machine in the search bar or by selecting the Virtual Machine Icon</h4>
@@ -53,7 +53,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 * Select create and choose Azure Virtual Machine
 
 * In the Resource group field, select the Resource Group you previously created (in my case its osTicketRG)
-* Enter a name for the virtual machine in the Virtual Machine Name field (ex. osTicket-VM)
+* Enter a name for the virtual machine in the Virtual Machine Name field (ex. VM-osTicket)
 * Select any region 
 * Availability options can be set to “No structure redundancy required”
 * Select Windows 10 Pro in the Image Field
@@ -83,7 +83,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/1HBOtBb.png" height="100%" width="100%" alt="Step4"/>
   
 </p>
 <p>
@@ -136,7 +136,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/K2Wz8gG.png" height="100%" width="100%" alt="Step6"/>
 </p>
 <p>
 <h4>6. Navigate to Windows search bar and enter IIS or Internet Information Services, open as administrator</h4> 

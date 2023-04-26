@@ -169,7 +169,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/GlZvaoh.png" height="100%" width="1000%" alt="Step8"/>
 </p>
 <p>
 <h4>8. In IIS select the name of the server</h4>
@@ -195,7 +195,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/Gej7Y6P.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <h4>9. Open file explorer</h4>
@@ -254,7 +254,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/uegnmiV.png" height="100%" width="100%" alt="Step12"/>
 </p>
 <p>
 <h4>12. Continue setup process from the osTicket installer webpage</h4>
@@ -287,7 +287,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/pdnAMhx.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <h4>14.Open File Explorer</h4>
